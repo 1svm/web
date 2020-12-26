@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @font-face {
+      font-family: 'Tesla';
+      src: URL('tes.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Emblem';
+      src: URL('emb.ttf') format('truetype');
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .flex-center {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .logo-text {
+      font: bold 64px/0.5 'Tesla', sans-serif;
+      color: #e93732;
+      letter-spacing: 10px;
+      margin: 50px;
+    }
+
+    .corp {
+      font-size: 22px;
+      font-weight: normal;
+    }
+
+    .soon-text {
+      font: normal 16px/0.5 'Tesla', sans-serif;
+      color: #e93732;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flex-center">
+    <div class="logo-text">
+      TYRAL<br />
+      <span class="corp">CORPORATION</span>
+    </div>
+    <div class="soon-text">Coming soon...</div>
+  </div>
+</body>
+
+</html>
